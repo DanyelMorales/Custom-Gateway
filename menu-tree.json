@@ -1,0 +1,168 @@
+{
+  "leaves": {
+    "home": {
+      "name": "Home",
+      "route": "home",
+      "type": "link",
+      "icon": "fa fa-home",
+      "data": {
+        "security": {
+          "enabled": false,
+          "permission": "perms"
+        }
+      }
+    },
+    "leads": {
+      "name": "Prospectos",
+      "route": "",
+      "type": "link",
+      "icon": "fa fa-group",
+      "data": {
+        "security": {
+          "enabled": false,
+          "permission": "perms"
+        }
+      }
+    },
+    "listarleads": {
+      "name": "Listar Prospectos",
+      "route": "Leads",
+      "type": "link",
+      "icon": "fa fa-group",
+      "data": {
+        "security": {
+          "enabled": false,
+          "permission": "perms"
+        }
+      }
+    },
+    "asignarleads": {
+      "name": "Asignar Prospectos",
+      "route": "Leads/AsignLeads",
+      "type": "link",
+      "icon": "fa fa-exchange",
+      "data": {
+        "security": {
+          "enabled": false,
+          "permission": "perms"
+        }
+      }
+    },
+    "createleads": {
+      "name": "Crear Prospectos",
+      "route": "Leads/CreateLeads",
+      "type": "link",
+      "icon": "fa fa-plus-circle",
+      "data": {
+        "security": {
+          "enabled": false,
+          "permission": "perms"
+        }
+      }
+    },
+    "tasks": {
+      "name": "Tasks",
+      "route": "Tasks/",
+      "type": "link",
+      "icon": "fa fa-tasks",
+      "data": {
+        "security": {
+          "enabled": false,
+          "permission": "perms"
+        }
+      }
+    },
+    "admin": {
+      "name": "Administrador",
+      "route": "",
+      "type": "link",
+      "icon": "fa fa-cog",
+      "data": {
+        "security": {
+          "enabled": true,
+          "permission": ["Clientes"]
+        }
+      }
+    },
+    "leadsconfig": {
+      "name": "Leads Config",
+      "route": "",
+      "type": "link",
+      "icon": "fa fa-cog",
+      "data": {
+        "security": {
+          "enabled": false,
+          "permission": "perms"
+        }
+      }
+    },
+    "notetype": {
+      "name": "Tipos de Notas",
+      "route": "Admin/NoteType",
+      "type": "link",
+      "icon": "fa fa-file-text-o",
+      "data": {
+        "security": {
+          "enabled": false,
+          "permission": "perms"
+        }
+      }
+    },
+    "source": {
+      "name": "Fuentes",
+      "route": "Admin/Source",
+      "type": "link",
+      "icon": "fa fa-globe",
+      "data": {
+        "security": {
+          "enabled": false,
+          "permission": "perms"
+        }
+      }
+    },
+    "status": {
+      "name": "Estatus",
+      "route": "Admin/Status",
+      "type": "link",
+      "icon": "fa fa-check-square-o",
+      "data": {
+        "security": {
+          "enabled": false,
+          "permission": "perms"
+        }
+      }
+    },
+    "titles": {
+      "name": "Títulos Personales",
+      "route": "Admin/Titles",
+      "type": "link",
+      "icon": "fa fa-handshake-o",
+      "data": {
+        "security": {
+          "enabled": false,
+          "permission": "perms"
+        }
+      }
+    },
+    "departments": {
+      "name": "Departamentos",
+      "route": "Admin/Departments",
+      "type": "link",
+      "icon": "fa fa-building-o",
+      "data": {
+        "security": {
+          "enabled": false,
+          "permission": "perms"
+        }
+      }
+    }
+  },
+  "tree": {
+    "home": [],
+    "leads": ["listarleads", "createleads", "asignarleads"],
+    "tasks": [],
+    "admin": {
+      "leadsconfig": ["notetype", "source", "status", "titles", "departments"]
+    }
+  }
+}

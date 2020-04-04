@@ -1,0 +1,37 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es6",
+    "baseUrl": "app",
+    "outDir": "./app",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "types": ["node"],
+    "paths": {
+      "@app/*": ["./app/*"],
+      "@services/*": ["./services/*"],
+      "@system": ["./app/System"],
+      "@root/*": ["./app/*"],
+      "@tests/*": ["./app/test/*"],
+      "@utils/*": ["./app/utilities/*"],
+      "@servicemanager": ["./app/utilities/ServiceManager"],
+      "@__BLACKBOARD__": ["./app/utilities/Blackboard"],
+      "@SERVICE_DECLARATION": ["./app/utilities/SERVICE_DECLARATION"],
+      "@EVENT_BUS": ["./app/utilities/EventBus"],
+      "@global": ["./app/Globals"],
+      "@annotated/*": ["./app/annotated/*"],
+      "@proxy/*": ["./app/modules/Proxy/*"],
+      "@mods_/*": ["./app/modules/*"],
+      "@/*": ["./app/modules/*"],
+      "@dto/*": ["./app/dto/*"],
+      "@routes/*": ["./app/modules/System/routes/*"],
+      "@guards/*": ["./app/modules/Guards/*"],
+      "@auth/*": ["./app/modules/Auth/*"]
+    }
+  },
+  "include": ["./", "src/**/*"],
+  "exclude": ["node_modules", "dist"]
+}

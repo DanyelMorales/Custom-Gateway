@@ -1,0 +1,16 @@
+import "ts-node";
+import "mocha";
+import { expect } from "chai";
+
+describe("ConfigManager", () => {
+    beforeEach(function() {
+
+    });
+    afterEach(function() {
+
+    });
+
+    it("", () => {
+
+    });
+});

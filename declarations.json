@@ -1,0 +1,18 @@
+{
+  "critical": {
+    "keys": {
+      "type": "RS256",
+      "public": "jwtRS256.key.pub",
+      "private": "jwtRS256.key"
+    }
+  },
+  "settings": {
+    "guard_manager": {
+      "fail_if": {
+        "only_next": false,
+        "no_guards": true,
+        "not_protected": true
+      }
+    }
+  }
+}

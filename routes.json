@@ -1,0 +1,355 @@
+{
+  "routes": {
+    "NODE_JS": {
+      "menuBlock": {
+        "route": "blocks/menu",
+        "permission": [],
+        "methods": {
+         "public": [], "allowAll":true,
+          "private": {}
+        },
+        "protected": false
+      }
+    },
+    "API1_DROPWIZARD": {
+      "listCountries": {
+        "route": "countries",
+        "permission": [],
+        "methods": {
+         "public": [], "allowAll":true,
+          "private": {}
+        },
+        "protected": false
+      },
+      "listStates": {
+        "route": "states",
+        "permission": [],
+        "methods": {
+         "public": [], "allowAll":true,
+          "private": {}
+        },
+        "protected": false
+      },
+      "USER_AUTHENTICATION": {
+        "route": "intranet/login",
+        "permission": [],
+        "methods": {
+         "public": [], "allowAll":true,
+          "private": {}
+        },
+        "protected": false,
+        "web_invokation": false
+      }
+    },
+    "API2_GRAILS": {
+      "listCallcenter": {
+        "route": "m_leads/configuration/source/listAllCallcenter",
+        "permission": [],
+        "methods": {
+         "public": [], "allowAll":true,
+          "private": {}
+        },
+        "protected": false
+      },
+      "listCampaingsByCallcenter": {
+        "route": "m_leads/configuration/source/listAllCampaingByCallcenter",
+        "permission": [],
+        "methods": {
+         "public": [], "allowAll":true,
+          "private": {}
+        },
+        "protected": false
+      },
+      "listAllSources": {
+        "route": "m_leads/source?max=1000",
+        "permission": [],
+        "methods": {
+         "public": [], "allowAll":true,
+          "private": {}
+        },
+        "protected": false
+      },
+      "listAllStatus": {
+        "route": "m_leads/status?max=1000",
+        "permission": [],
+        "methods": {
+         "public": [], "allowAll":true,
+          "private": {}
+        },
+        "protected": false
+      },
+      "listAllNoteType": {
+        "route": "m_leads/noteType?max=1000",
+        "permission": [],
+        "methods": {
+         "public": [], "allowAll":true,
+          "private": {}
+        },
+        "protected": false
+      },
+      "listTitles": {
+        "route": "m_leads/title",
+        "permission": [],
+        "methods": {
+         "public": [], "allowAll":true,
+          "private": {}
+        },
+        "protected": false
+      },
+
+      "listAgent": {
+        "route": "m_leads/leads/listAllAgentByDepto",
+        "permission": [],
+        "methods": {
+         "public": [], "allowAll":true,
+          "private": {}
+        },
+        "protected": false
+      },
+      "listDepartments": {
+        "route": "m_leads/configuration/departaments",
+        "permission": [],
+        "methods": {
+         "public": [], "allowAll":true,
+          "private": {}
+        },
+        "protected": false
+      },
+      "searchSource": {
+        "route": "m_leads/source/search",
+        "permission": [],
+        "methods": {
+         "public": [], "allowAll":true,
+          "private": {}
+        },
+        "protected": false
+      },
+      "searchNoteType": {
+        "route": "m_leads/noteType/search",
+        "permission": [],
+        "methods": {
+         "public": [], "allowAll":true,
+          "private": {}
+        },
+        "protected": false
+      },
+      "searchStatus": {
+        "route": "m_leads/status/search",
+        "permission": [],
+        "methods": {
+         "public": [], "allowAll":true,
+          "private": {}
+        },
+        "protected": false
+      },
+      "searchDepartments": {
+        "route": "m_leads/configuration/departaments/search",
+        "permission": [],
+        "methods": {
+         "public": [], "allowAll":true,
+          "private": {}
+        },
+        "protected": false
+      },
+      "searchListAgent": {
+        "route": "m_leads/leads/findAllAgentByDepto",
+        "permission": [],
+        "methods": {
+         "public": [], "allowAll":true,
+          "private": {}
+        },
+        "protected": false
+      },
+      "searchBonus": {
+        "route": "m_leads/configuration/bonus",
+        "permission": [],
+        "methods": {
+         "public": [], "allowAll":true,
+          "private": {}
+        },
+        "protected": false
+      },
+      "searchTitle": {
+        "route": "m_leads/title/search",
+        "permission": [],
+        "methods": {
+          "public": [], "allowAll":true,
+          "private": {}
+        },
+        "protected": false
+      },
+      "searchTaskByUsr": {
+        "route": "m_leads/configuration/tasks/listAllTasksByUser",
+        "permission": [],
+        "methods": {
+          "public": [], "allowAll":true,
+          "private": {}
+        },
+        "protected": false
+      },
+      "saveStatus": {
+        "route": "m_leads/configuration/status/saveStatusByDepto",
+        "permission": [],
+        "methods": {
+          "public": [], "allowAll":true,
+          "private": {}
+        },
+        "protected": false
+      },
+      "saveSource": {
+        "route": "m_leads/configuration/source/saveSource",
+        "permission": [],
+        "methods": {
+         "public": [], "allowAll":true,
+          "private": {}
+        },
+        "protected": false
+      },
+      "saveNoteType": {
+        "route": "m_leads/noteType",
+        "permission": [],
+        "methods": {
+         "public": [], "allowAll":true,
+          "private": {}
+        },
+        "protected": false
+      },
+      "saveTitle": {
+        "route": "m_leads/title",
+        "permission": [],
+        "methods": {
+         "public": [], "allowAll":true,
+          "private": {}
+        },
+        "protected": false
+      },
+      "saveTasks": {
+        "route": "m_leads/tasks",
+        "permission": [],
+        "methods": {
+         "public": [], "allowAll":true,
+          "private": {}
+        },
+        "protected": false
+      },
+      "saveLeads": {
+        "route": "m_leads/leads/save",
+        "permission": [],
+        "methods": {
+         "public": [], "allowAll":true,
+          "private": {}
+        },
+        "protected": false
+      },
+      "saveDeptos": {
+        "route": "m_leads/configuration/departaments/save",
+        "permission": [],
+        "methods": {
+         "public": [], "allowAll":true,
+          "private": {}
+        },
+        "protected": false
+      },
+      "detailSource": {
+        "route": "m_leads/source",
+        "permission": [],
+        "methods": {
+         "public": [], "allowAll":true,
+          "private": {}
+        },
+        "protected": false
+      },
+      "detailCampaingBySource": {
+        "route": "m_leads/configuration/source/listAllCampaingBySource",
+        "permission": [],
+        "methods": {
+         "public": [], "allowAll":true,
+          "private": {}
+        },
+        "protected": false
+      },
+      "detailCampaingByDepto": {
+        "route": "m_leads/configuration/departaments/findAllCampaingByDepto",
+        "permission": [],
+        "methods": {
+         "public": [], "allowAll":true,
+          "private": {}
+        },
+        "protected": false
+      },
+      "UpdateSource": {
+        "route": "m_leads/configuration/source/updateSource",
+        "permission": [],
+        "methods": {
+         "public": [], "allowAll":true,
+          "private": {}
+        },
+        "protected": false
+      },
+      "UpdateNoteType": {
+        "route": "m_leads/noteType",
+        "permission": [],
+        "methods": {
+         "public": [], "allowAll":true,
+          "private": {}
+        },
+        "protected": false
+      },
+
+      "UpdateTitle": {
+        "route": "m_leads/title",
+        "permission": [],
+        "methods": {
+         "public": [], "allowAll":true,
+          "private": {}
+        },
+        "protected": false
+      },
+      "UpdateTask": {
+        "route": "m_leads/tasks",
+        "permission": [],
+        "methods": {
+         "public": [], "allowAll":true,
+          "private": {}
+        },
+        "protected": false
+      },
+      "UpdateDeptos": {
+        "route": "m_leads/configuration/departaments/update",
+        "permission": [],
+        "methods": {
+         "public": [], "allowAll":true,
+          "private": {}
+        },
+        "protected": false
+      },
+      "UpdateStatus": {
+        "route": "m_leads/status/",
+        "permission": [],
+        "methods": {
+         "public": [], "allowAll":true,
+          "private": {}
+        },
+        "protected": false
+      },
+      "getTasks": {
+        "route": "m_leads/tasks",
+        "permission": [],
+        "methods": {
+         "public": [], "allowAll":true,
+          "private": {}
+        },
+        "protected": false
+      },
+      "getTasksToDo": {
+        "route": "m_leads/configuration/tasks/listToDoTasks",
+        "permission": [],
+        "methods": {
+         "public": [], "allowAll":true,
+          "private": {}
+        },
+        "protected": false
+      }
+    }
+  }
+}

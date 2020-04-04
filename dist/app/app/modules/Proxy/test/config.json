@@ -1,0 +1,21 @@
+{
+  "microservices": {
+    "API1_DROPWIZARD": {
+      "common": {
+        "Auth": {
+          "credentials": {
+            "user": "thesistemas",
+            "password": "thepassword"
+          }
+        },
+        "path":"v1"
+      },
+      "dev": {
+        "url": "http://127.0.0.1:1010"
+      },
+      "prod": {
+        "url": "http://acuarius.it.sunset.com.mx:1010"
+      }
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "microservices": {
+    "NODE_JS": {
+      "common": {
+        "Auth": {
+          "credentials": {
+            "type": "basic",
+            "user": "foobar",
+            "password": "password"
+          }
+        },
+        "path": "api"
+      },
+      "dev": {
+        "url": "http://127.0.0.1:3000"
+      },
+      "prod": {
+        "url": "http://127.0.0.1:3000"
+      }
+    },
+    "API1_DROPWIZARD": {
+      "common": {
+        "Auth": {
+          "credentials": {
+            "type": "basic",
+            "user": "foobar",
+            "password": "password"
+          }
+        },
+        "path": "v1"
+      },
+      "dev": {
+        "url": "http://productionserver.com.mx:1010"
+      },
+      "prod": {
+        "url": "http://productionserver.com.mx:1010"
+      }
+    },
+    "API2_GRAILS": {
+      "common": {
+        "Auth": {
+          "credentials": {
+            "type": "",
+            "user": "",
+            "password": ""
+          }
+        },
+        "path": "voltux_core-0.1"
+      },
+      "dev": {
+        "url": "http://10.194.24.166:8080"
+      },
+      "prod": {
+        "url": "http://10.194.24.166:8080"
+      }
+    }
+  }
+}

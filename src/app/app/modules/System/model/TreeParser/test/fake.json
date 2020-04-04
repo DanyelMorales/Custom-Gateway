@@ -1,0 +1,66 @@
+{
+  "leaves": {
+    "leads": {
+      "name": "Leads module",
+      "route": "#",
+      "type": "link",
+      "icon": "fa fa-group"
+    },
+    "listarpaises": {
+      "name": "Listar paises",
+      "route": "listar@paises",
+      "type": "link",
+      "icon": "fa fa-pais"
+    },
+    "admin": {
+      "name": "Listar paises",
+      "route": "listar@paises",
+      "type": "link",
+      "icon": "fa fa-pais"
+    },
+    "item": {
+      "name": "item",
+      "route": "item_route",
+      "type": "link",
+      "icon": "fa fa-route",
+      "data": {
+        "permission": "perms"
+      }
+    },
+    "item2": {
+      "name": "item2",
+      "route": "it",
+      "type": "link",
+      "icon": "fa-fait"
+    },
+    "item3": {
+      "name": "item3",
+      "route": "fuf",
+      "type": "link",
+      "icon": "fuf-fa"
+    }
+  },
+  "tree": {
+    "listarpaises": ["item2", "item3"],
+    "leads": {
+      "item": ["item2", "item3"],
+      "item2": {
+        "item2": {
+          "item3": ["listarpaises"]
+        },
+        "item4": ["listarpaises"]
+      }
+    },
+    "admin": {
+      "item": ["item2", "item3"],
+      "item2": {
+        "item2": {
+          "item3": ["listarpaises"]
+        },
+        "item4": {
+          "item4": ["listarpaises"]
+        }
+      }
+    }
+  }
+}
